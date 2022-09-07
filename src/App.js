@@ -1,4 +1,5 @@
 import './App.css';
+import Landing from './Components/Landing';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header className="App-header">
 
       </header>
+      <Landing />
     </div>
   );
 }
