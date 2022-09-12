@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PortfolioWebsite/static/css/main.c94dbe3f.css",
+    "main.js": "/PortfolioWebsite/static/js/main.6a0a3eee.js",
+    "static/media/h2z2.png": "/PortfolioWebsite/static/media/h2z2.bda67b8a3cc95ac8f15c.png",
+    "static/media/robo.png": "/PortfolioWebsite/static/media/robo.fde11f209eb37917585e.png",
+    "static/media/ReactA.png": "/PortfolioWebsite/static/media/ReactA.8a6fc0a24a800d1e0f4a.png",
+    "static/media/barcode.png": "/PortfolioWebsite/static/media/barcode.4d3a29a6c75d19078d88.png",
+    "static/media/Python.png": "/PortfolioWebsite/static/media/Python.52d7bb207f9868b90e39.png",
+    "static/media/Java.png": "/PortfolioWebsite/static/media/Java.0e2f9072ed023a2f8ea2.png",
+    "static/media/avatar.jpg": "/PortfolioWebsite/static/media/avatar.5a4e6a28f78397b449d5.jpg",
+    "static/media/Express.png": "/PortfolioWebsite/static/media/Express.cca64e0f360897258ecb.png",
+    "static/media/css.png": "/PortfolioWebsite/static/media/css.84de5dab5fab27f4161c.png",
+    "static/media/HTML.png": "/PortfolioWebsite/static/media/HTML.3b73196b39d93015d25f.png",
+    "static/media/mongodb.png": "/PortfolioWebsite/static/media/mongodb.7d8ed821bb5bbf048687.png",
+    "static/media/Javascript.png": "/PortfolioWebsite/static/media/Javascript.266bd9fb2663dcc057b4.png",
+    "index.html": "/PortfolioWebsite/index.html",
+    "main.c94dbe3f.css.map": "/PortfolioWebsite/static/css/main.c94dbe3f.css.map",
+    "main.6a0a3eee.js.map": "/PortfolioWebsite/static/js/main.6a0a3eee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c94dbe3f.css",
+    "static/js/main.6a0a3eee.js"
+  ]
+}
