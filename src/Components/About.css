@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+}
+
+.title {
+    font-size: 130%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: #34bbff;
+}
+
+.about__container {
+    width: 50%;
+    display: inline-flex;
+    text-align: left;
+    height: 25%;
+    font-size: 55%;
+    line-height: 1.5em;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    /*background-color: rgb(31, 33, 33);*/
+}
+
+.about__container span {
+    font-weight: lighter;
+    color: #34bbff;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+.skills__container {
+    margin-top: 20px;
+    display: inline-grid;
+    text-decoration: none;
+
+}
+
+.skills__container li {
+    cursor: auto;
+    text-decoration: none;
+
+}
+
+
+.skills__container p {
+    font-size: 100%;
+
+}

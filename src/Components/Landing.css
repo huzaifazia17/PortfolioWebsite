@@ -1,16 +1,130 @@
 body {
-    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    overflow-x: hidden;
 }
 
-#tsparticles {
+section {
+    display: grid;
+    place-items: center;
     height: 100vh;
+    font-size: 32px;
+    font-weight: bold;
 }
 
-.landing-c {
-    position: absolute;
+header {
+    overflow: hidden;
+}
+
+#home {
+    background-color: rgb(20, 14, 14);
+    margin-top: -70px;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+#projects,
+#contact,
+#about,
+#experience {
+    color: #eaf2fa;
+    background: rgb(20, 14, 14);
+}
+
+
+.nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -5px;
+    z-index: 2;
+    height: 70px;
+    min-height: 70px;
+    width: calc(100% - 1.5rem);
+    background-color: black;
+    color: #34bbff;
+    font-weight: bolder;
+    padding: 0 1rem;
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+    overflow-x: hidden;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.nav__container__actions {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.logo {
+    font-size: 170%;
+    padding-left: 30px;
+}
+
+.resume button {
+    font-weight: bolder;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: fixed;
+    transform: translate(0%, -20%);
+    color: #ddeeff;
+    background-color: #219ad7;
+}
+
+.resume button:hover {
+    color: #34bbff;
+    background-color: #ddeeff;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.resume {
+    left: 140%;
+    position: fixed;
+}
+
+ul {
+
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    list-style: none;
+    padding: 0;
+
+}
+
+li {
+    cursor: pointer;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+li:hover {
+    text-decoration: underline;
 }

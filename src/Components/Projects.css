@@ -1,0 +1,70 @@
+.project1,
+.project2,
+.project3 {
+    width: 70%;
+    display: inline-flex;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.Projects-container a {
+    text-decoration: none;
+}
+
+.Projects-container h2 {
+    font-size: 140%;
+    margin-bottom: 0px;
+}
+
+.project-image {
+    flex: 30%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.project-image img {
+    border: 2px solid #0e6c9a;
+    box-shadow: #0e6c9a 0px 10px 11px, #0e6c9a 0px -9px 15px, #0e6c9a 0px 3px 5px, #0e6c9a 0px 10px 9px, #0e6c9a 0px -3px 5px;
+}
+
+
+.project-info {
+    flex: 70%;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.project-info h1 {
+    font-size: 80%;
+    padding-bottom: 10px;
+    color: #34bbff;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+}
+
+.project-info h1:hover {
+    text-decoration: underline;
+}
+
+.project-info h3 {
+    text-align: left;
+    color: white;
+    font-size: 40%;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.end-content {
+    font-size: 50%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.end-content a {
+    text-decoration: none;
+}

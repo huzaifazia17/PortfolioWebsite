@@ -1,104 +1,61 @@
-import React from 'react'
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import { useCallback } from "react";
+import { Button } from 'bootstrap';
 import './Landing.css';
-
+import ParticlesC from './ParticlesC';
+import { Link } from "react-scroll";
+import Home from './Home';
+import About from './About';
+import Experience from './Experience';
+import Projects from './Projects';
+import Contact from './Contact';
+import Footer from './Footer';
 
 const Landing = () => {
-    const particlesInit = useCallback(async (engine) => {
-        console.log(engine);
-
-        await loadFull(engine);
-    }, []);
-
-    const particlesLoaded = useCallback(async (container) => {
-        await console.log(container);
-    }, []);
     return (
-        <div className='particles-c'>
+        <div >
+            <header className="nav">
+                <div className='logo'>
+                    <h3>HZ</h3>
+                </div>
+                <nav className="nav__container__actions">
+                    <div className='nav__container'>
+                        <ul>
+                            <li>
+                                <Link activeClass="active" smooth spy to="home">
+                                    HOME
+                                </Link>
+                            </li>
+                            <li>
+                                <Link activeClass="active" smooth spy to="about">
+                                    ABOUT
+                                </Link></li>
+                            <li>
+                                <Link activeClass="active" smooth spy to="experience">
+                                    EXPERIENCE
+                                </Link></li>
+                            <li>
+                                <Link activeClass="active" smooth spy to="projects">
+                                    PROJECTS
+                                </Link></li>
+                            <li >
+                                <Link activeClass="active" smooth spy to="contact">
+                                    CONTACT
+                                </Link></li>
+                            <li className='resume'>
+                                <button>RESUMÉ</button>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
 
-            <Particles
-                id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
-                options={{
-                    background: {
-                        color: {
-                            value: "#282c3",
-                        },
-                    },
-                    fpsLimit: 120,
-                    interactivity: {
-                        events: {
-                            onClick: {
-                                enable: true,
-                                mode: "push",
-                            },
-                            onHover: {
-                                enable: true,
-                                mode: "repulse",
-                            },
-                            resize: true,
-                        },
-                        modes: {
-                            push: {
-                                quantity: 6,
-                            },
-                            repulse: {
-                                distance: 200,
-                                duration: 0.4,
-                            },
-                        },
-                    },
-                    particles: {
-                        color: {
-                            value: " #0000FF#0000FF",
-                        },
-                        links: {
-                            color: "#ffffFF",
-                            distance: 150,
-                            enable: true,
-                            opacity: 0.5,
-                            width: 2,
-                        },
-                        collisions: {
-                            enable: true,
-                        },
-                        move: {
-                            directions: "none",
-                            enable: true,
-                            outModes: {
-                                default: "bounce",
-                            },
-                            random: false,
-                            speed: 1,
-                            straight: false,
-                        },
-                        number: {
-                            density: {
-                                enable: true,
-                                area: 800,
-                            },
-                            value: 80,
-                        },
-                        opacity: {
-                            value: 0.5,
-                        },
-                        shape: {
-                            type: "triangle",
-                        },
-                        size: {
-                            value: { min: 1, max: 5 },
-                        },
-                    },
-                    detectRetina: true,
-                }}
-            />
-            <div className='landing-c'>
-                helooxx
+            </header>
+            <div className='sections'>
+                <section id="home"><Home /></section>
+
+                <section id="about"><About /></section>
+                <section id="experience"><Experience /></section>
+                <section id="projects"><Projects /></section>
+                <section id="contact"><Contact /></section>
             </div>
-
         </div>
     );
 }

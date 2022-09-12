@@ -1,0 +1,43 @@
+.title h1 {
+    text-align: left;
+    font-size: 60%;
+    color: #34bbff;
+}
+
+.title h2 {
+    font-size: 40%;
+    color: #96d6f7;
+    text-align: left;
+}
+
+.link {
+    text-decoration: underline;
+    color: #34bbff;
+}
+
+.description p {
+    text-align: left;
+    font-size: 45%;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    color: #34bbff;
+    /*background-color: rgb(28, 33, 33);*/
+}
+
+.experience-1,
+.experience-2,
+.experience-3 {
+
+    padding: 5px 15px 5px 15px;
+    border-radius: 40px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.titleEx {
+    font-size: 140%;
+    margin-top: 45px;
+}

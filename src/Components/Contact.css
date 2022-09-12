@@ -1,0 +1,11 @@
+.world {
+    text-align: center;
+    display: inline-flex;
+    font-size: 150%;
+    color: #0e6c9a;
+}
+
+.world a {
+    text-decoration: none;
+    color: #0e6c9a;
+}
