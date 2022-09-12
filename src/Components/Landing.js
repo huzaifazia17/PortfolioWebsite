@@ -7,7 +7,7 @@ import About from './About';
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
-import Footer from './Footer';
+import resume from '../resume.pdf';
 
 const Landing = () => {
     return (
@@ -41,7 +41,7 @@ const Landing = () => {
                                     CONTACT
                                 </Link></li>
                             <li className='resume'>
-                                <button>RESUMÉ</button>
+                                <a href={resume} target="_blank"><button >RESUMÉ</button></a>
                             </li>
                         </ul>
                     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Experience.css';
+import { FaGreaterThan } from 'react-icons/fa';
 
 const Experience = () => {
     return (
@@ -8,7 +9,7 @@ const Experience = () => {
                 <div className='titleEx'> <span>-----</span>Experience<span>-----</span></div>
                 <div className='experience-1'>
                     <div className='title'>
-                        <h1>Undergraduate Research Assistant</h1>
+                        <h1><FaGreaterThan /> Undergraduate Research Assistant</h1>
                         <h2><a href="https://www.sain.ca/" target="_blank" className="link">SAIN Lab</a>, Ontario Tech University: May- August 2022</h2>
                     </div>
                     <div className='description'>
@@ -19,7 +20,7 @@ const Experience = () => {
                 </div>
                 <div className='experience-2'>
                     <div className='title'>
-                        <h1>Peer Tutor/ Software Engineer Tutor</h1>
+                        <h1><FaGreaterThan /> Peer Tutor/ Software Engineer Tutor</h1>
                         <h2>Ontario Tech University: September 2021- May 2022</h2>
                     </div>
                     <div className='description'>
@@ -30,7 +31,7 @@ const Experience = () => {
                 </div>
                 <div className='experience-3'>
                     <div className='title'>
-                        <h1>Undergraduate Research Assistant</h1>
+                        <h1><FaGreaterThan /> Undergraduate Research Assistant</h1>
                         <h2><a href="http://ad2mlabs.com/lab/" target="_blank" className="link">AD2MLabs</a>, Ontario Tech University: May- August 2021</h2>
                     </div>
                     <div className='description'>

@@ -16,6 +16,11 @@
 .Projects-container h2 {
     font-size: 140%;
     margin-bottom: 0px;
+    margin-top: 45px;
+}
+
+.Projects-container {
+    height: 90%;
 }
 
 .project-image {
