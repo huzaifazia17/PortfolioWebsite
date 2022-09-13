@@ -18,7 +18,7 @@ header {
 }
 
 #home {
-    background-color: rgb(20, 14, 14);
+    background-color: #181818;
     margin-top: -70px;
     overflow: hidden;
     height: 100vh;
@@ -30,7 +30,7 @@ header {
 #about,
 #experience {
     color: #eaf2fa;
-    background: rgb(20, 14, 14);
+    background: #181818;
 }
 
 
@@ -44,7 +44,7 @@ header {
     height: 70px;
     min-height: 70px;
     width: calc(100% - 1.5rem);
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     color: #34bbff;
     font-weight: bolder;
     padding: 0 1rem;
@@ -80,6 +80,10 @@ header {
 .logo {
     font-size: 170%;
     padding-left: 30px;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
 
 .resume button {
@@ -127,4 +131,52 @@ li {
 
 li:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 640px) {
+    .navResponsive {
+        display: none;
+    }
+
+    .resume button {
+        transform: translate(35%, -40%);
+    }
+}
+
+@media screen and (max-width: 1569px) {
+    .resume button {
+        transform: translate(-35%, -20%);
+    }
+}
+
+@media screen and (max-width: 1472px) {
+    .resume button {
+        transform: translate(-95%, -20%);
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .resume button {
+        transform: translate(-155%, -20%);
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .resume button {
+        transform: translate(-200%, -20%);
+    }
+}
+
+@media screen and (max-width: 1034px) {
+    .resume button {
+        transform: translate(-155%, -20%);
+    }
+
+
+
+    li {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
 }

@@ -6,10 +6,16 @@ body {
     font-size: 130%;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: lighter;
 }
 
 .title span {
     color: #34bbff;
+}
+
+.title hr {
+    color: #34bbff !important;
+    background-color: #34bbff !important;
 }
 
 .about__container {
@@ -19,12 +25,15 @@ body {
     height: 25%;
     font-size: 55%;
     line-height: 1.5em;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 30px 20px 30px;
     border-radius: 40px;
+    font-weight: lighter;
+    background-color: #000;
     /*background-color: rgb(31, 33, 33);*/
 }
 
 .about__container span {
+
     font-weight: lighter;
     color: #34bbff;
     letter-spacing: 0.1em;
@@ -32,6 +41,9 @@ body {
 }
 
 .skills__container {
+    border-radius: 40px;
+    padding: 20px 30px 20px 30px;
+    background-color: #000;
     margin-top: 20px;
     display: inline-grid;
     text-decoration: none;
@@ -47,5 +59,49 @@ body {
 
 .skills__container p {
     font-size: 100%;
+
+}
+
+.skillsSub {
+    width: 100px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 40px;
+    box-shadow: rgba(52, 187, 255, 0.4) 0px 0px 0px 2px, rgba(52, 187, 255, 0.65) 0px 4px 6px -1px, rgba(52, 187, 255, 0.08) 0px 1px 0px inset;
+}
+
+.skillsSub img {
+    padding: 0px 0px 0px 0px;
+    padding-top: 10px;
+}
+
+.skillsSub p {
+    padding: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 100%;
+        margin-bottom: 20px;
+        transform: translateX(-15%);
+    }
+
+    .about__container {
+        width: 55%;
+        display: block;
+        transform: translateX(60%);
+        height: 25%;
+        font-size: 50%;
+    }
+
+    .mobileChange {
+        display: hidden;
+    }
+}
+
+@media screen and (max-width: 1034px) {
+    .about__container {
+        width: 75%;
+
+    }
 
 }

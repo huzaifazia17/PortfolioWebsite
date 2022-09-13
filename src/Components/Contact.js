@@ -5,7 +5,7 @@ import { AiFillMail, AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillPh
 const Contact = () => {
     return (
         <div className='contact-c'>
-            <div className='title'> <span>-----</span>Contact Me<span>-----</span></div>
+            <div className='title' data-aos="zoom-in-down" data-aos-duration="1500"> Contact Me<hr style={{ width: '75%' }}></hr></div>
             <div>
                 <ul className='world'>
                     <li><a href="https://www.linkedin.com/in/huzaifa-zia-86673b206/" target="_blank"><AiFillLinkedin /></a></li>

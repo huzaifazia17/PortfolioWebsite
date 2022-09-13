@@ -5,13 +5,15 @@ import robo from '../Images/robo.png';
 import barcode from '../Images/barcode.png';
 import 'animate.css';
 import { FaGreaterThan } from 'react-icons/fa';
+import 'aos/dist/aos.css';
+import 'animate.css';
 
 const Projects = () => {
     return (
-        <div className='Projects-container animate__animated animate__fadeInRightBig'>
-            <h2><span>-----</span>Projects<span>-----</span></h2>
+        <div className='Projects-container '>
+            <h2>Projects<hr style={{ width: '25%' }}></hr></h2>
             <a href="https://h2z2groceries.netlify.app/" target="_blank">
-                <div className='project1 '>
+                <div className='project1 ' data-aos="fade-left" data-aos-duration="2500">
                     <div className='project-image'>
                         <img src={h2z2} alt="h2z2" style={{ width: 275, height: 175 }} />
                     </div>
@@ -26,7 +28,7 @@ const Projects = () => {
                 </div>
             </a>
             <a href="https://huzaifazia17.github.io/DH8Transcriber/" target="_blank">
-                <div className='project2'>
+                <div className='project2' data-aos="fade-right" data-aos-duration="2500">
                     <div className='project-image'>
                         <img src={robo} alt="robo" style={{ width: 275, height: 175 }} />
                     </div>
@@ -41,7 +43,7 @@ const Projects = () => {
                 </div>
             </a>
             <a href="https://github.com/huzaifazia17/ContentBasedImageRetrieval" target="_blank">
-                <div className='project3'>
+                <div className='project3' data-aos="fade-left" data-aos-duration="2500">
                     <div className='project-image'>
                         <img src={barcode} alt="barcode" style={{ width: 275, height: 175 }} />
                     </div>

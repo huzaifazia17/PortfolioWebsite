@@ -1,5 +1,5 @@
 .Home_container {
-    background-color: rgb(20, 14, 14);
+    background-color: #181818 !important;
 
     align-items: center;
     text-align: center;
@@ -49,4 +49,15 @@
 .icons a {
     text-decoration: none;
     color: #34bbff;
+}
+
+@media screen and (max-width: 640px) {
+    .typeWriter_Container {
+        font-size: 70%;
+
+    }
+
+    .Home_text span {
+        font-size: 120%;
+    }
 }

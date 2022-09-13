@@ -9,38 +9,39 @@ import Projects from './Projects';
 import Contact from './Contact';
 import resume from '../resume.pdf';
 
+
 const Landing = () => {
     return (
         <div >
             <header className="nav">
                 <div className='logo'>
-                    <h3>HZ</h3>
+                    <Link activeClass="active" smooth spy to="home"><h3>HZ</h3></Link>
                 </div>
                 <nav className="nav__container__actions">
                     <div className='nav__container'>
                         <ul>
-                            <li>
-                                <Link activeClass="active" smooth spy to="home">
-                                    HOME
-                                </Link>
-                            </li>
-                            <li>
+                            <li className='navResponsive'>
                                 <Link activeClass="active" smooth spy to="about">
                                     ABOUT
+                                </Link>
+                            </li>
+                            <li className='navResponsive'>
+                                <Link activeClass="active" smooth spy to="about">
+                                    SKILLS
                                 </Link></li>
-                            <li>
+                            <li className='navResponsive'>
                                 <Link activeClass="active" smooth spy to="experience">
                                     EXPERIENCE
                                 </Link></li>
-                            <li>
+                            <li className='navResponsive'>
                                 <Link activeClass="active" smooth spy to="projects">
                                     PROJECTS
                                 </Link></li>
-                            <li >
+                            <li className='navResponsive'>
                                 <Link activeClass="active" smooth spy to="contact">
                                     CONTACT
                                 </Link></li>
-                            <li className='resume'>
+                            <li className='resume' >
                                 <a href={resume} target="_blank"><button >RESUMÉ</button></a>
                             </li>
                         </ul>

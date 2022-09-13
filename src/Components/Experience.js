@@ -1,13 +1,15 @@
 import React from 'react'
 import './Experience.css';
 import { FaGreaterThan } from 'react-icons/fa';
+import 'aos/dist/aos.css';
+import 'animate.css';
 
 const Experience = () => {
     return (
         <div>
-            <div className='experience-container animate__animated animate__fadeInLeftBig'>
-                <div className='titleEx'> <span>-----</span>Experience<span>-----</span></div>
-                <div className='experience-1'>
+            <div className='experience-container'>
+                <div className='titleEx'> Experience<hr style={{ width: '50%' }}></hr></div>
+                <div className='experience-1' data-aos="fade-right" data-aos-duration="2500">
                     <div className='title'>
                         <h1><FaGreaterThan /> Undergraduate Research Assistant</h1>
                         <h2><a href="https://www.sain.ca/" target="_blank" className="link">SAIN Lab</a>, Ontario Tech University: May- August 2022</h2>
@@ -18,7 +20,7 @@ const Experience = () => {
                         <p><span>~</span>Wrote various python scripts to analyze results from pilot testers and wrote documentation on the entire process. </p>
                     </div>
                 </div>
-                <div className='experience-2'>
+                <div className='experience-2' data-aos="fade-left" data-aos-duration="2500">
                     <div className='title'>
                         <h1><FaGreaterThan /> Peer Tutor/ Software Engineer Tutor</h1>
                         <h2>Ontario Tech University: September 2021- May 2022</h2>
@@ -29,7 +31,7 @@ const Experience = () => {
                         <p><span>~</span>Learned to better explain technical concepts, give detailed feedback, and received Positive feedback from students.</p>
                     </div>
                 </div>
-                <div className='experience-3'>
+                <div className='experience-3' data-aos="fade-right" data-aos-duration="2500">
                     <div className='title'>
                         <h1><FaGreaterThan /> Undergraduate Research Assistant</h1>
                         <h2><a href="http://ad2mlabs.com/lab/" target="_blank" className="link">AD2MLabs</a>, Ontario Tech University: May- August 2021</h2>

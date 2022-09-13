@@ -1,6 +1,7 @@
 .title h1 {
     text-align: left;
-    font-size: 60%;
+    font-size: 55%;
+    font-weight: lighter;
     color: #34bbff;
 }
 
@@ -8,6 +9,7 @@
     font-size: 40%;
     color: #96d6f7;
     text-align: left;
+    font-weight: lighter;
 }
 
 .link {
@@ -17,6 +19,7 @@
 
 .description p {
     text-align: left;
+    font-weight: lighter;
     font-size: 45%;
     letter-spacing: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,14 +33,32 @@ span {
 .experience-1,
 .experience-2,
 .experience-3 {
-
+    background-color: #000;
     padding: 5px 15px 5px 15px;
     border-radius: 40px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    margin-bottom: 7px;
+    margin-top: 7px;
 }
 
 .titleEx {
     font-size: 140%;
-    margin-top: 45px;
+    font-weight: lighter;
+    margin-top: 65px;
+}
+
+@media screen and (max-width: 640px) {
+    .description p {
+        font-size: 35%;
+
+    }
+
+    .title h2 {
+        font-size: 30%;
+        text-align: center;
+    }
+
+    .title h1 {
+        font-size: 55%;
+        text-align: center;
+    }
 }
