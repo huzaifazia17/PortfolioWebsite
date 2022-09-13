@@ -1,15 +1,12 @@
 .project1,
 .project2,
 .project3 {
-    width: 70%;
-    display: inline-flex;
-    align-items: center;
-    padding: 30px 0px 30px 0px;
-    margin: 0px 0px 0px 0px;
+    width: 84%;
+    height: 90%;
+    line-height: 0.7em;
+    padding: 30px 15px 30px 15px;
     background-color: #000;
     border-radius: 40px;
-    margin-top: 7px;
-    margin-bottom: 7px;
 
 }
 
@@ -17,27 +14,34 @@
     text-decoration: none;
 }
 
-.Projects-container h2 {
+.titlePr h2 {
     font-size: 140%;
     margin-bottom: 0px;
-    margin-top: 15px;
+    padding: 0px 0px 0px 0px;
     font-weight: lighter;
 }
 
 .Projects-container {
-    height: 90%;
-    width: 90%;
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding-right: 20px;
+
 }
 
 .project-image {
     flex: 30%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    padding-bottom: 40px;
 
 }
 
 .project-image img {
     border: 2px solid #0e6c9a;
+
     box-shadow: #0e6c9a 0px 10px 11px, #0e6c9a 0px -9px 15px, #0e6c9a 0px 3px 5px, #0e6c9a 0px 10px 9px, #0e6c9a 0px -3px 5px;
 }
 

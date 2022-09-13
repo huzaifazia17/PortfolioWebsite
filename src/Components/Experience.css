@@ -21,8 +21,19 @@
     text-align: left;
     font-weight: lighter;
     font-size: 45%;
+    line-height: 1.8em;
     letter-spacing: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.experience-container {
+    display: inline-flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding-left: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding-right: 20px;
 }
 
 span {
@@ -33,6 +44,7 @@ span {
 .experience-1,
 .experience-2,
 .experience-3 {
+    width: 25%;
     background-color: #000;
     padding: 5px 15px 5px 15px;
     border-radius: 40px;
@@ -44,6 +56,7 @@ span {
     font-size: 140%;
     font-weight: lighter;
     margin-top: 65px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 640px) {
