@@ -7,6 +7,7 @@ import About from './About';
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
+import Skill from './Skill';
 import resume from '../resume.pdf';
 
 
@@ -26,7 +27,7 @@ const Landing = () => {
                                 </Link>
                             </li>
                             <li className='navResponsive'>
-                                <Link activeClass="active" smooth spy to="about">
+                                <Link activeClass="active" smooth spy to="skill">
                                     SKILLS
                                 </Link></li>
                             <li className='navResponsive'>
@@ -53,6 +54,7 @@ const Landing = () => {
                 <section id="home"><Home /></section>
 
                 <section id="about"><About /></section>
+                <section id="skill"><Skill /></section>
                 <section id="experience"><Experience /></section>
                 <section id="projects"><Projects /></section>
                 <section id="contact"><Contact /></section>

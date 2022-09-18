@@ -16,10 +16,6 @@
 
 @media screen and (max-width: 640px) {
 
-    .contact-c {
-        background-color: #181818;
-        transform: translate(0, 225%);
-    }
 
     .title {
         text-align: center;
@@ -27,11 +23,7 @@
 }
 
 @media screen and (max-width: 1034px) {
-    .contact-c {
-        background-color: #181818;
-        transform: translate(0, 215%);
-        width: 100%;
-    }
+
 
     .title {
         text-align: center;

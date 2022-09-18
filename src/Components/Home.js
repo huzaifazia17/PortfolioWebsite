@@ -13,12 +13,12 @@ const Home = () => {
         <div className='Home_container'>
 
             <div className='pic'>
-                <a><img src={logo} alt="Huzaifa Zia" style={{ width: 280, height: 280, borderRadius: '150px', border: '2px solid #34bbff' }} /></a>
+                <a><img src={logo} alt="Huzaifa Zia" style={{ width: "44%", height: "44%", borderRadius: '150px', border: '2px solid #34bbff' }} /></a>
             </div>
             <div className='Home_text'>
                 <p>Hi, my name is <span>Huzaifa Zia</span></p>
                 <div className='typeWriter_Container'>
-                    <p>and I am a</p> <br />
+                    <p>I am a</p>
                     <Typewriter
 
                         onInit={(typewriter) => {

@@ -1,9 +1,9 @@
-body {
-    width: 100%;
+.big-C {
+    margin-top: 70px;
 }
 
 .title {
-    font-size: 130%;
+    font-size: 115%;
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: lighter;
@@ -23,7 +23,7 @@ body {
     display: inline-flex;
     text-align: left;
     height: 25%;
-    font-size: 55%;
+    font-size: 45%;
     line-height: 1.5em;
     padding: 20px 30px 20px 30px;
     border-radius: 40px;
@@ -43,11 +43,29 @@ body {
 .skills__container {
     border-radius: 40px;
     padding: 20px 30px 20px 30px;
+    width: 90%;
     background-color: #000;
     margin-top: 20px;
     display: inline-grid;
     text-decoration: none;
+    justify-content: center;
 
+}
+
+.skill {
+    justify-content: space-between;
+    position: relative;
+    width: 40%;
+    border-radius: 40px;
+    box-shadow: rgba(52, 187, 255, 0.4) 0px 0px 0px 2px, rgba(52, 187, 255, 0.65) 0px 4px 6px -1px, rgba(52, 187, 255, 0.08) 0px 1px 0px inset;
+}
+
+.skill p {
+    margin-bottom: 10px;
+    font-size: 80%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .skills__container li {
@@ -58,16 +76,11 @@ body {
 
 
 .skills__container p {
-    font-size: 100%;
+    font-size: 80%;
 
 }
 
-.skillsSub {
-    width: 100px;
-    padding: 0px 0px 0px 0px;
-    border-radius: 40px;
-    box-shadow: rgba(52, 187, 255, 0.4) 0px 0px 0px 2px, rgba(52, 187, 255, 0.65) 0px 4px 6px -1px, rgba(52, 187, 255, 0.08) 0px 1px 0px inset;
-}
+
 
 .skillsSub img {
     padding: 0px 0px 0px 0px;
@@ -78,23 +91,26 @@ body {
     padding: 0px 0px 0px 0px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 440px) {
     .title {
-        font-size: 100%;
-        margin-bottom: 20px;
-        transform: translateX(-15%);
+        transform: translate(-1%) !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .skills__container {
+        width: 80%;
+
+
     }
 
-    .about__container {
-        width: 55%;
-        display: block;
-        transform: translateX(60%);
-        height: 25%;
+    .skill img {
+        width: 1.5em !important;
+        height: 1.5em !important;
+    }
+
+    .skill p {
         font-size: 50%;
-    }
-
-    .mobileChange {
-        display: hidden;
     }
 }
 

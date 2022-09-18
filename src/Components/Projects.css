@@ -1,13 +1,12 @@
 .project1,
 .project2,
 .project3 {
-    width: 84%;
-    height: 90%;
-    line-height: 0.7em;
-    padding: 30px 15px 30px 15px;
+    width: 27%;
     background-color: #000;
+    padding: 5px 15px 5px 15px;
     border-radius: 40px;
-
+    margin-bottom: 7px;
+    margin-top: 7px;
 }
 
 .Projects-container a {
@@ -15,6 +14,7 @@
 }
 
 .titlePr h2 {
+    margin-top: 60px;
     font-size: 140%;
     margin-bottom: 0px;
     padding: 0px 0px 0px 0px;
@@ -24,10 +24,12 @@
 .Projects-container {
     display: inline-flex;
     justify-content: center;
+    gap: 1.5em;
     padding-left: 20px;
     margin-right: 70px;
     margin-left: 70px;
     padding-right: 20px;
+
 
 }
 
@@ -42,7 +44,7 @@
 .project-image img {
     border: 2px solid #0e6c9a;
 
-    box-shadow: #0e6c9a 0px 10px 11px, #0e6c9a 0px -9px 15px, #0e6c9a 0px 3px 5px, #0e6c9a 0px 10px 9px, #0e6c9a 0px -3px 5px;
+    box-shadow: #0e6c9a 0px 4px 5px, #0e6c9a 0px -3px 7px, #0e6c9a 0px 3px 5px, #0e6c9a 0px 8px 7px, #0e6c9a 0px -3px 5px;
 }
 
 
@@ -51,10 +53,11 @@
     text-align: left;
     padding-left: 20px;
     margin: 0px 0px 0px 0px;
+    position: relative;
 }
 
 .project-info h1 {
-    font-size: 80%;
+    font-size: 0.6em;
     padding-bottom: 10px;
     color: #34bbff;
     text-align: left;
@@ -70,20 +73,40 @@
     text-align: left;
     font-weight: lighter;
     color: white;
-    font-size: 40%;
+    font-size: 0.35em;
     letter-spacing: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .end-content {
-    font-size: 50%;
+    font-size: 0.45em;
+    font-weight: lighter;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
+}
+
+.techUsed {
+    margin-top: 10%;
 }
 
 .end-content a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 440px) {
+
+    .project1,
+    .project2,
+    .project3 {
+        width: 100% !important;
+        padding-right: 10px;
+    }
+
+    .project-image img {
+        margin-left: 10px;
+
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -121,5 +144,21 @@
 
     .project-info h1 {
         padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    .Projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        width: 70%;
+        padding-right: 10px;
+
     }
 }

@@ -22,17 +22,30 @@ header {
     margin-top: -70px;
     overflow: hidden;
     height: 100vh;
+    width: 100%;
     width: 100vw;
 }
 
 #projects,
+#skill,
 #contact,
 #about,
 #experience {
     color: #eaf2fa;
+    height: auto;
+    width: 100%;
+    width: 100vw;
     background: #181818;
+    justify-content: center;
 }
 
+#contact {
+    height: 100vh;
+}
+
+#projects {
+    justify-content: center;
+}
 
 .nav {
     display: flex;
@@ -91,6 +104,7 @@ header {
     font-size: 0.9rem;
     border-radius: 20px;
     padding: 10px 25px 10px 25px;
+    border: none;
     letter-spacing: 2px;
     cursor: pointer;
     position: fixed;
@@ -133,13 +147,43 @@ li:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 440px) {
+    header {
+        display: none;
+    }
+
+
+    .resume button {
+
+        transform: translateX(-30%);
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 670px) {
     .navResponsive {
         display: none;
     }
 
     .resume button {
-        transform: translate(35%, -40%);
+
+        transform: translate(50%, -40%) !important;
+
+    }
+
+
+}
+
+@media screen and (max-width: 865px) {
+    ul {
+        gap: 0.5rem;
+    }
+
+    .resume button {
+        transform: translate(-35%, -20%);
     }
 }
 
@@ -169,7 +213,7 @@ li:hover {
 
 @media screen and (max-width: 1034px) {
     .resume button {
-        transform: translate(-155%, -20%);
+        transform: translate(-115%, -20%);
     }
 
 

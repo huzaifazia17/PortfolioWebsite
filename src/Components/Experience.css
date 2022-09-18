@@ -20,7 +20,7 @@
 .description p {
     text-align: left;
     font-weight: lighter;
-    font-size: 45%;
+    font-size: 0.4em;
     line-height: 1.8em;
     letter-spacing: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -59,19 +59,42 @@ span {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 640px) {
-    .description p {
-        font-size: 35%;
+@media screen and (max-width: 440px) {
 
+    .experience-1,
+    .experience-2,
+    .experience-3 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .experience-container {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .title h2 {
-        font-size: 30%;
-        text-align: center;
+    .experience-1,
+    .experience-2,
+    .experience-3 {
+        justify-content: center;
     }
 
-    .title h1 {
-        font-size: 55%;
-        text-align: center;
+    .title {
+        transform: translate(7%);
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .experience-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-1,
+    .experience-2,
+    .experience-3 {
+        width: 70%;
     }
 }
