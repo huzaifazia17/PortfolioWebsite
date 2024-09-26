@@ -17,10 +17,8 @@ const About = () => {
             <div className='about-section'>
                 <div className='about__container' data-aos="fade-right" data-aos-duration="2500">
                     <p>
-                        Hey, my name is <span>Huzaifa Zia</span> and I am currently in my third year of Software Engineering at Ontario Tech University.
-                        I am a <span>Full Stack Developer</span> with a passion for <span>Web Development</span>. I have always been interested in solving challenging problems and I am always looking to learn new things.
-                        I have a wide variety of skills that I have developed through working as a Research Assistant for eight months and personal and school projects, listed below.
-                        I am currently looking for a Software Engineering Intern/Co-op position as a <span>Full Stack Developer</span>, <span>Mobile Developer</span>, <span>Web Developer</span>, <span>Front End/ Back End Developer</span>, or <span>Data Scientist</span>.
+                        Hey, my name is <span>Huzaifa Zia</span>, and I am currently in my final year of Software Engineering at Ontario Tech University. As a <span>Full Stack Developer</span> with a passion for <span>Artificial Intelligence</span> and <span>Web Development</span>, I thrive on solving challenging problems and continuously expanding my skills.
+                        During my 16-month Engineering Internship at Ontario Power Generation, as well as through personal and academic projects, I’ve developed a broad range of technical skills. I am currently seeking a New Grad Software Engineering position as a <span>Full Stack Developer</span>, <span>Mobile Developer</span>, <span>Web Developer</span>, <span>Front-End/Back-End Developer</span>, or <span>Data Scientist</span>.
                     </p>
                 </div>
             </div>

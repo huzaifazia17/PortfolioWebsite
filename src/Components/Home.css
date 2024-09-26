@@ -68,12 +68,16 @@
 }
 
 @media screen and (max-width: 440px) {
-    .typeWriter_Container {
-        font-size: 70%;
 
+    .p-t {
+        font-size: 80%;
+    }
+
+    .Home_text {
+        font-size: 80%;
     }
 
     .Home_text span {
-        font-size: 90%;
+        font-size: 140%;
     }
 }

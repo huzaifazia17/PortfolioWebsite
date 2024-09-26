@@ -10,12 +10,12 @@
 }
 
 .title span {
-    color: #34bbff;
+    color: #00ABE4;
 }
 
 .title hr {
-    color: #34bbff !important;
-    background-color: #34bbff !important;
+    color: #00ABE4 !important;
+    background-color: #00ABE4 !important;
 }
 
 .about__container {
@@ -34,8 +34,8 @@
 
 .about__container span {
 
-    font-weight: lighter;
-    color: #34bbff;
+    font-weight: bolder;
+    color: #00ABE4;
     letter-spacing: 0.1em;
     line-height: 1.5em;
 }

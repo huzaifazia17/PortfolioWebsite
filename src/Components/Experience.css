@@ -9,7 +9,7 @@
     font-size: 40%;
     color: #96d6f7;
     text-align: left;
-    font-weight: lighter;
+    font-weight: bolder;
 }
 
 .link {
@@ -38,6 +38,7 @@
 
 span {
     color: #34bbff;
+    font-weight: bolder;
     /*background-color: rgb(28, 33, 33);*/
 }
 
@@ -46,7 +47,7 @@ span {
 .experience-3 {
     width: 25%;
     background-color: #000;
-    padding: 5px 15px 5px 15px;
+    padding: 15px 25px 15px 25px;
     border-radius: 40px;
     margin-bottom: 7px;
     margin-top: 7px;

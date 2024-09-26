@@ -18,7 +18,7 @@ const Home = () => {
             <div className='Home_text'>
                 <p>Hi, my name is <span>Huzaifa Zia</span></p>
                 <div className='typeWriter_Container'>
-                    <p>I am a</p>
+                    <p className='p-t'>I am a</p>
                     <Typewriter
 
                         onInit={(typewriter) => {

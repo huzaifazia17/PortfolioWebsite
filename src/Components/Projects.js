@@ -48,7 +48,7 @@ const Projects = () => {
                     </div>
                     <div className='project-info'>
                         <a href="https://github.com/huzaifazia17/ContentBasedImageRetrieval" target="_blank"><h1><FaGreaterThan /> Content Based Image Retrieval </h1></a>
-                        <h3><span>~</span>Designed and developed a Python program that converts a black and white image into a barcode using angled projections. The progam allows the user to search for the most similar barcode with an accuracy fo greater than 80%. </h3>
+                        <h3><span>~</span>Designed and developed a Python program that converts a black and white image into a barcode using angled projections. The progam allows the user to search for the most similar barcode with an accuracy of greater than 80%. </h3>
                         <div className='techUsed'><h3><span>Python Pillow Numpy Visual-Studio-Code </span></h3></div>
                     </div>
 
@@ -56,7 +56,7 @@ const Projects = () => {
 
 
             </div>
-            <p className='end-content'>To view the rest of my smaller projects, please visit my <a href="https://github.com/huzaifazia17" target="_blank"><span>Github</span></a></p>
+            <p className='end-content'>To view my other projects, please visit my <a href="https://github.com/huzaifazia17" target="_blank"><span>Github</span></a></p>
         </div>
     )
 }

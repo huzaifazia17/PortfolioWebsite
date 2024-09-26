@@ -12,35 +12,35 @@ const Experience = () => {
 
                 <div className='experience-1' data-aos="zoom-in" data-aos-duration="1000">
                     <div className='title'>
-                        <h1><FaGreaterThan /> Undergraduate Research Assistant</h1>
-                        <h2><a href="https://www.sain.ca/" target="_blank" className="link">SAIN Lab</a>, Ontario Tech University: May- August 2022</h2>
+                        <h1><FaGreaterThan /> Engineering Intern</h1>
+                        <h2><a href="https://www.opg.ca/" target="_blank" className="link">OPG</a>, Ontario Power Generation: May 2023- August 2024</h2>
                     </div>
                     <div className='description'>
-                        <p><span>~</span>Worked with a highly qualified team of researchers and professors to increase awareness <br></br> of Password Managers and the effect of having a weak password. Presented relative papers,{"\n"} ideas, and solutions to the team. </p>
-                        <p><span>~</span>Developed a full stack survey website using JavaScript, HTML, CSS, ExpressJS, Node.js, MongoDB to learn about <br></br>and spread awareness on the use and risks of Password Managers. </p>
-                        <p><span>~</span>Wrote various python scripts to analyze results from pilot testers and wrote documentation on the entire process. </p>
+                        <p><span>~</span>Developed a streamlined Work Report tool using Power BI Report Builder, SQL and Python, consolidating data from multiple sources into one interface, automating daily fieldwork reports, and reducing report generation time from legacy tools by 90%. </p>
+                        <p><span>~</span>Developed and optimized SQL views, tables, and procedures for large datasets, significantly reducing load times and enhancing performance of legacy systems used for critical project tracking.</p>
+                        <p><span>~</span>Designed and implemented automated metric dashboards in Power BI, using Python and SQL to provide real-time insights for project managers, simplifying access to project data for monitoring and enabling faster decision-making.</p>
                     </div>
                 </div>
                 <div className='experience-2' data-aos="zoom-in" data-aos-duration="2000">
                     <div className='title'>
-                        <h1><FaGreaterThan /> Peer Tutor/ Software Engineer Tutor</h1>
-                        <h2>Ontario Tech University: September 2021- May 2022</h2>
+                        <h1><FaGreaterThan /> Software Research Engineer</h1>
+                        <h2><a href="https://www.sain.ca/" target="_blank" className="link">SAIN Lab</a>, Ontario Tech University: May 2023- August 2022</h2>
                     </div>
                     <div className='description'>
-                        <p><span>~</span>Conducted Physics study hall and one on one tutoring sessions to tutees in Introduction to programming (C++),<br></br>Data Structures & Algorithms (Python), Web Programming and Object-Oriented Programming (Java).</p>
-                        <p><span>~</span>Guided students down the path of independent learning and encouraged active participation leading to tutees<br></br> understanding programming concepts well.</p>
-                        <p><span>~</span>Learned to better explain technical concepts, give detailed feedback, and received Positive feedback from students.</p>
+                        <p><span>~</span>Designed and implemented a full-stack survey website using JavaScript, HTML, CSS, ExpressJS, Node.js, and MongoDB to raise awareness about Password Managers and the risks associated with weak passwords.</p>
+                        <p><span>~</span>Developed and documented Python scripts to analyze data from pilot testers, providing comprehensive process documentation for future reference.</p>
+                        <p><span>~</span>Achieved significant engagement, with over 1,000 users completing the survey on Amazon Mechanical Turk, resulting in a 50%+ increase in awareness of password management practices and the dangers of weak passwords.</p>
                     </div>
                 </div>
                 <div className='experience-3' data-aos="zoom-in" data-aos-duration="3000">
                     <div className='title'>
                         <h1><FaGreaterThan /> Undergraduate Research Assistant</h1>
-                        <h2><a href="http://ad2mlabs.com/lab/" target="_blank" className="link">AD2MLabs</a>, Ontario Tech University: May- August 2021</h2>
+                        <h2><a href="http://ad2mlabs.com/lab/" target="_blank" className="link">AD2MLabs</a>, Ontario Tech University: May 2023- August 2021</h2>
                     </div>
                     <div className='description'>
-                        <p><span>~</span>Developed a program using Python that reads through an ASCII STL file and stores triangle information<br></br> into a multi layered data structure. This program will be used for further research by PhD students. </p>
-                        <p><span>~</span>Developed a CAD GUI using PyQt and Qt Designer that displays an STL file in 3D, with many user functionalities<br></br> such as seeing triangle information, to be used in further research to repair STL files.</p>
-                        <p><span>~</span>Developed three websites (ahmadbarari.com, ad2mlabs.com, robin-team.com) using WordPress, HTML and CSS,<br></br> increasing my understanding of front end developing and UX design. </p>
+                        <p><span>~</span>Developed a program using Python that reads through an ASCII STL file and stores triangle information into a multi layered data structure, enabling rapid identification and resolution of errors.</p>
+                        <p><span>~</span>Developed an intuitive 3D visualization tool using PyQt and Qt Designer to assist in the repair of broken STL files.</p>
+                        <p><span>~</span>Built and launched three websites (ahmadbarari.com, ad2mlabs.com, robin-team.com) utilizing WordPress, HTML, and CSS, deepening expertise in front-end development and user experience (UX) design.</p>
                     </div>
                 </div>
             </div>
