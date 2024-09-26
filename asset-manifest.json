@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e986f2fc.css",
-    "main.js": "/static/js/main.cfa6670f.js",
+    "main.css": "/static/css/main.1386bb69.css",
+    "main.js": "/static/js/main.5d2a85ab.js",
     "static/media/h2z2.png": "/static/media/h2z2.bda67b8a3cc95ac8f15c.png",
     "static/media/robo.png": "/static/media/robo.fde11f209eb37917585e.png",
     "static/media/ReactA.png": "/static/media/ReactA.8a6fc0a24a800d1e0f4a.png",
+    "static/media/resume.pdf": "/static/media/resume.67f2cfbf20b4624a0913.pdf",
     "static/media/barcode.png": "/static/media/barcode.4d3a29a6c75d19078d88.png",
-    "static/media/resume.pdf": "/static/media/resume.0fe3eb382d6eaabdab88.pdf",
     "static/media/Python.png": "/static/media/Python.52d7bb207f9868b90e39.png",
     "static/media/Java.png": "/static/media/Java.0e2f9072ed023a2f8ea2.png",
-    "static/media/avatar.jpg": "/static/media/avatar.5a4e6a28f78397b449d5.jpg",
     "static/media/SCSS.png": "/static/media/SCSS.4f6d501b7b0af3eef7e2.png",
     "static/media/Django.png": "/static/media/Django.a5aaa412df3c52f5f6bf.png",
+    "static/media/avatar.jpg": "/static/media/avatar.e54bdfe41e43a53e433d.jpg",
     "static/media/Express.png": "/static/media/Express.cca64e0f360897258ecb.png",
     "static/media/css.png": "/static/media/css.84de5dab5fab27f4161c.png",
     "static/media/HTML.png": "/static/media/HTML.3b73196b39d93015d25f.png",
     "static/media/mongodb.png": "/static/media/mongodb.7d8ed821bb5bbf048687.png",
     "static/media/Javascript.png": "/static/media/Javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.e986f2fc.css.map": "/static/css/main.e986f2fc.css.map",
-    "main.cfa6670f.js.map": "/static/js/main.cfa6670f.js.map"
+    "main.1386bb69.css.map": "/static/css/main.1386bb69.css.map",
+    "main.5d2a85ab.js.map": "/static/js/main.5d2a85ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.e986f2fc.css",
-    "static/js/main.cfa6670f.js"
+    "static/css/main.1386bb69.css",
+    "static/js/main.5d2a85ab.js"
   ]
 }
