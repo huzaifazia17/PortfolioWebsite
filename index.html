@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favic.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#059669" />
+
+  <title>Huzaifa Zia — Software Engineer</title>
+  <meta name="description"
+    content="Huzaifa Zia is a software engineer in Toronto building full-stack web applications, AI-powered tools, and data platforms." />
+  <meta name="author" content="Huzaifa Zia" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://huzaifazia.com/" />
+  <meta property="og:title" content="Huzaifa Zia — Software Engineer" />
+  <meta property="og:description"
+    content="Software engineer in Toronto building full-stack web applications, AI-powered tools, and data platforms." />
+  <meta property="og:image" content="https://huzaifazia.com/favic.png" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Huzaifa Zia — Software Engineer" />
+  <meta name="twitter:description"
+    content="Software engineer in Toronto building full-stack web applications, AI-powered tools, and data platforms." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!--
+    Applies the stored theme before first paint. Without this a returning
+    dark-mode visitor sees a frame of light before it snaps over, which reads
+    as a flash. Light is the default; dark is opt-in via the toggle.
+  -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('theme') === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) { }
+    })();
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

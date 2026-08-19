@@ -1,59 +1,29 @@
 {
   "name": "portfoliowebsite",
-  "version": "0.1.0",
   "private": true,
-  "homepage": "https://huzaifazia.com",
-  "dependencies": {
-    "@emotion/react": "^11.10.0",
-    "@emotion/styled": "^11.10.0",
-    "@mui/material": "^5.10.2",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "animate.css": "^4.1.1",
-    "aos": "^2.3.4",
-    "bootstrap": "^5.2.0",
-    "express": "^4.18.1",
-    "gh-pages": "^4.0.0",
-    "heroku": "^7.63.0",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
-    "react-particles": "^2.2.4",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.7",
-    "react-tsparticles": "^2.2.4",
-    "tsparticles": "^2.2.4",
-    "tsparticles-engine": "^2.2.4",
-    "typewriter-effect": "^2.19.0",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "motion": "^11.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "typewriter-effect": "^2.21.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.7"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }
