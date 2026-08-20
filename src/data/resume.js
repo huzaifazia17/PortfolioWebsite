@@ -26,9 +26,9 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm a software engineer based in Toronto who enjoys the messy middle of a problem — the part where the requirements are vague, the data is inconsistent, and someone still needs a working answer by Friday.",
-    "I graduated from Ontario Tech University with a B.Eng in Software Engineering, and I currently work as a Data Analyst on Project Controls at Black & McDonald, where I build Power BI and Python tooling that has replaced legacy reporting processes and saved teams 25+ hours a week. Before that I spent 16 months as a Software Engineering Intern at Ontario Power Generation.",
-    "Outside of work I build full-stack and AI-powered applications — retrieval-augmented assistants, decentralized apps, and mobile marketplaces. I'm always interested in work that sits where solid engineering meets genuinely useful products.",
+    "I'm a software engineer based in Toronto who enjoys the messy middle of a problem, the part where the requirements are vague, the data is inconsistent, and someone still needs a working answer by Friday.",
+    "I graduated from Ontario Tech University with a B.Eng in Software Engineering, and I currently work as a Data Analyst on the Project Controls team at Black & McDonald, where I automate legacy processes. Before that I spent 16 months as a Software Engineering Intern at Ontario Power Generation.",
+    "Outside of work I build full-stack and AI-powered applications - retrieval-augmented assistants, decentralized apps, and mobile marketplaces. I'm always interested in work that sits where solid engineering meets genuinely useful products.",
   ],
 };
 
